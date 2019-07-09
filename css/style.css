@@ -1,0 +1,55 @@
+/* styling the submit button */
+#submit{
+    cursor: pointer;
+	border: none;
+    background-size: 35px 35px;
+    background-color: blue;
+	border-radius: 0 20px 20px 0;
+	padding: 15px 25px;
+	display: inline-block;
+	width: 150px;
+    height: 38px;
+    color: white;
+    font-weight: bold;
+    
+}
+/* Styling of the input label */
+#temp{
+    padding: 0 30px;
+	font-size: 18px;
+	width: 60%;
+	max-width: 400px;
+	height: 38px;
+	border: 1px solid darken(white, 30%);
+	border-radius: 20px 0 0 20px;
+}
+
+/* Styling of the output after the temperature input */
+#wear{
+    font-weight: 600;
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+/* When You move the cursor through the submit button styling */
+#submit :hover{
+    color: blue;
+}
+
+/* Styling the heading of the page */
+h1{
+    font-weight: 600;
+    color: #fff;
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+/* Making the text to appear at the centre of the page */
+.container{
+    text-align: center;
+}
